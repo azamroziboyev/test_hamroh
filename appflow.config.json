@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "appId": "sizning-app-id",
+      "appId": "hamroh-id",
       "root": ".",
       "dependencyInstallCommand": "npm install",
       "buildCommand": "npm run build",
