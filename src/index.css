@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .liquid-island {
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    background-color: rgba(255, 255, 255, 0.82);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+  }
+
+  .liquid-island-glass {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    background-color: rgba(255, 255, 255, 0.65);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .bg-gradient-mesh-blue {
+    background-color: #f1f5f9;
+    background-image: 
+      radial-gradient(at 0% 0%, hsla(199, 100%, 93%, 1) 0, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(152, 100%, 93%, 1) 0, transparent 50%);
+  }
+
+  .bg-gradient-mesh-green {
+    background-color: #f1f5f9;
+    background-image: 
+      radial-gradient(at 0% 0%, hsla(152, 100%, 93%, 1) 0, transparent 50%),
+      radial-gradient(at 100% 100%, hsla(210, 100%, 96%, 1) 0, transparent 50%);
+  }
+
+  .bg-gradient-mesh-welcome {
+    background-color: #e2e8f0;
+    background-image: 
+      radial-gradient(at 0% 0%, hsla(199, 100%, 93%, 1) 0, transparent 50%), 
+      radial-gradient(at 50% 0%, hsla(187, 100%, 93%, 1) 0, transparent 50%), 
+      radial-gradient(at 100% 0%, hsla(152, 100%, 93%, 1) 0, transparent 50%);
+  }
+
+  .hide-scroll::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Telegram WebApp color variable fallbacks */
+:root {
+  --tg-theme-bg-color: #f1f5f9;
+  --tg-theme-text-color: #0f172a;
+  --tg-theme-hint-color: #94a3b8;
+  --tg-theme-link-color: #0ea5e9;
+  --tg-theme-button-color: #0ea5e9;
+  --tg-theme-button-text-color: #ffffff;
+  --tg-theme-secondary-bg-color: #ffffff;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}

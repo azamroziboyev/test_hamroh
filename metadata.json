@@ -1,0 +1,6 @@
+{
+  "name": "Hamroh Taxi",
+  "description": "A modern, Telegram WebApp-friendly local ride-sharing frontend with predefined routes, multi-passenger seat matching, and driver-passenger dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
