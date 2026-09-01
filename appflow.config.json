@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "appId": "sizning-app-id",
+      "root": ".",
+      "dependencyInstallCommand": "npm install",
+      "buildCommand": "npm run build",
+      "webDir": "dist"
+    }
+  ]
+}
