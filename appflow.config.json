@@ -1,9 +1,8 @@
 {
   "apps": [
     {
-      "appId": "hamroh-id",
+      "appId": "1c623bd0",
       "root": ".",
-      "dependencyInstallCommand": "npm install",
       "buildCommand": "npm run build",
       "webDir": "dist"
     }
